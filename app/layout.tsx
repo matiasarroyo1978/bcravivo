@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "La Macro - Datos de la Macroeconomía Argentina",
+    title: "Datos Macro - Datos de la Macroeconomía Argentina",
     description:
       "Central de deudores, inflación, reservas, dólar, tasas, y calculadora de carry trade.",
     creator: "@arroyomatias19",
