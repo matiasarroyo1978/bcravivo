@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "La Macro - Datos de la Macroeconomía Argentina",
     description:
       "Central de deudores, inflación, reservas, dólar, tasas, y calculadora de carry trade.",
-    creator: "@tomasmalamud",
+    creator: "@arroyomatias19",
   },
 };
 
