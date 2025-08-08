@@ -23,12 +23,12 @@ export const metadata: Metadata = {
   },
   description:
     "Central de deudores, inflación, reservas, dólar, tasas, y calculadora de carry trade.",
-  authors: [{ name: "Tomas Malamud" }],
+  authors: [{ name: "Matias Arroyo" }],
   openGraph: {
     type: "website",
     locale: "es_AR",
-    url: "https://lamacro.ar",
-    siteName: "La Macro",
+    url: "https://https://bcravivo.vercel.app/",
+    siteName: "BCRA vivo",
   },
   twitter: {
     card: "summary_large_image",
