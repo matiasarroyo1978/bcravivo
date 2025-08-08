@@ -8,11 +8,11 @@ export function Footer() {
         <div className="container py-4 px-6 sm:px-16 flex items-center justify-between">
           <div className="text-balance text-sm leading-loose text-muted-foreground md:text-left">
             Creado por{" "}
-            <InlineLink href={"https://x.com/tomasmalamud"}>
+            <InlineLink href={"https://x.com/arroyomatias19"}>
               Matias Arroyo
             </InlineLink>
             . Código disponible en{" "}
-            <InlineLink href={"https://github.com/TomiMalamud/bcraenvivo"}>
+            <InlineLink href={"https://github.com/matiasarroyo1978/bcravivo.git"}>
               GitHub
             </InlineLink>
             . Utiliza la API del BCRA y de{" "}
