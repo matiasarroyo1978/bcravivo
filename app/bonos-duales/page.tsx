@@ -2,7 +2,6 @@ import CallValueComponent, {
   DEFAULT_CALL_VALUE_REQUEST,
 } from "@/components/duales-tamar/call-value";
 import DualesClient from "@/components/duales-tamar/duales-client";
-import InlineLink from "@/components/inline-link";
 import { getDualBondSimulationData } from "@/lib/duales";
 
 export const metadata = {

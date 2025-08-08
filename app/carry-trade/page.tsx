@@ -1,7 +1,6 @@
 import { CarryExitTable } from "@/components/carry-trade/carry-exit-table";
 import { CarryTable } from "@/components/carry-trade/carry-table";
 import { MepBreakeven } from "@/components/carry-trade/mep-breakeven";
-import InlineLink from "@/components/inline-link";
 import {
   Card,
   CardContent,
