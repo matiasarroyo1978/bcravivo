@@ -46,11 +46,7 @@ export default async function CarryTradePage() {
       <h1 className="text-3xl font-bold mb-2">Carry Trade</h1>
       <p className="text-muted-foreground mb-8">
         Fijate cuál es el mejor bono para hacer carry trade. Se actualiza casi a
-        tiempo real. Cálculos por{" "}
-        <InlineLink href="https://x.com/JohnGalt_is_www/status/1912555971400069372">
-          JohnGalt_is_www
-        </InlineLink>
-        .
+        tiempo real.
       </p>
 
       <div className="space-y-8">

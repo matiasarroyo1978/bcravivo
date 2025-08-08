@@ -22,11 +22,7 @@ export default async function CallsPage() {
     <main className="container mx-auto px-6 md:px-16 py-8">
       <h1 className="text-3xl font-bold mb-2">{metadata.title}</h1>
       <p className="text-muted-foreground mb-8">
-        Cálculos hechos por{" "}
-        <InlineLink href="https://x.com/JohnGalt_is_www/">
-          JohnGalt_is_www
-        </InlineLink>
-        . Los números son tasas mensuales (%).
+        Los números son tasas mensuales (%).
       </p>
       <DualesClient
         initialData={initialDualesData}
