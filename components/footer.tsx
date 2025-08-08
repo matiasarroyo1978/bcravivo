@@ -11,10 +11,6 @@ export function Footer() {
             <InlineLink href={"https://x.com/arroyomatias19"}>
               Matias Arroyo
             </InlineLink>
-            . Código disponible en{" "}
-            <InlineLink href={"https://github.com/matiasarroyo1978/bcravivo.git"}>
-              GitHub
-            </InlineLink>
             . Utiliza la API del BCRA y de{" "}
             <InlineLink href="https://data912.com">
               Milton Casco Data Center
