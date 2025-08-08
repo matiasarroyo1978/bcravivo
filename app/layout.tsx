@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | La Macro",
-    default: "La Macro - Datos de la Macroeconomía Argentina",
+    template: "%s | Datos Macro",
+    default: "Datos Macro - Datos de la Macroeconomía Argentina",
   },
   description:
     "Central de deudores, inflación, reservas, dólar, tasas, y calculadora de carry trade.",
