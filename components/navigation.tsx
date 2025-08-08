@@ -128,7 +128,7 @@ export function Navigation() {
         <div className="flex items-center sm:flex-initial flex-1 justify-center sm:justify-start">
           <Link href="/" className="flex items-center" prefetch={true}>
             <span className="text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r dark:from-blue-400 dark:via-yellow-100 dark:to-blue-400 from-blue-500 via-sky-400 to-blue-500">
-              La Macro
+              Datos Macro
             </span>
           </Link>
         </div>
