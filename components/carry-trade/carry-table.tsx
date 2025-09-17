@@ -20,7 +20,7 @@ interface CarryTableProps {
   mep: number;
 }
 
-const CARRY_PRICES = [1200, 1300, 1400];
+const CARRY_PRICES = [1300, 1400, 1500]; // cambiamos 1200 por 1500
 const carryColumnKeys = CARRY_PRICES.map((price) => `carry_${price}` as const);
 
 export function CarryTable({ data, mep }: CarryTableProps) {
@@ -70,9 +70,7 @@ export function CarryTable({ data, mep }: CarryTableProps) {
                   key={colKey}
                   className={cn(
                     "text-right",
-                    colKey === "carry_1100" ||
-                      colKey === "carry_1200" ||
-                      colKey === "carry_1300"
+                    colKey === "carry_1100" || colKey === "carry_1200"
                       ? "hidden md:table-cell"
                       : "",
                   )}
@@ -129,11 +127,6 @@ export function CarryTable({ data, mep }: CarryTableProps) {
                         carryValue > 0
                           ? "text-green-600 dark:text-green-400"
                           : "text-red-600 dark:text-red-400",
-                        colKey === "carry_1100" ||
-                          colKey === "carry_1200" ||
-                          colKey === "carry_1300"
-                          ? "hidden md:table-cell"
-                          : "",
                       )}
                     >
                       {formatNumber(carryValue, 1, "percentage")}

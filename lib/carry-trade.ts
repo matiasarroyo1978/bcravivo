@@ -65,7 +65,7 @@ const PAYOFF: Record<string, number> = {
   TTD26: 161.144,
 };
 
-const CARRY_PRICES = [1000, 1100, 1200, 1300, 1400];
+const CARRY_PRICES = [1000, 1100, 1200, 1300, 1400, 1500];
 
 function getCurrentUpperLimit(): number {
   const startDate = new Date(2025, 3, 14); // April 14, 2025 (month is 0-indexed)
